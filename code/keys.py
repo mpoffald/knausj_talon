@@ -115,7 +115,7 @@ modifier_keys = {
     # If you find 'alt' is often misrecognized, try using 'alter'.
     "alt": "alt",  #'alter': 'alt',
     "control": "ctrl",  #'troll':   'ctrl',
-    "shift": "shift",  #'sky':     'shift',
+    "ship": "shift",  #'sky':     'shift',
     "super": "super",
 }
 if app.platform  == "mac":
