@@ -55,6 +55,7 @@ open: insert("(")
 close: insert(")")
 keyword: insert(":")
 map: insert("{")
+(deaf | death): insert("def")
 deafen: insert("defn")
 fun: insert("fn")
 
