@@ -32,13 +32,20 @@ pick window <number>:
   key("{number}")
 (cancel | nevermind):
   key("ctrl-g")
+create directory:
+  key("alt-x")
+  insert("make-directory")
+  key("enter")
 
 ##### Evil mode #####
 normal:
   key("esc")
 insert:
   key("i")
- 
+save file:
+  key("esc")
+  insert(":w")
+  key("enter")
 
 ###### Projectile ###### 
 project switch:
