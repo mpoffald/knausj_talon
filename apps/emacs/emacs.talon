@@ -33,6 +33,13 @@ pick window <number>:
 (cancel | nevermind):
   key("ctrl-g")
 
+##### Evil mode #####
+normal:
+  key("esc")
+insert:
+  key("i")
+ 
+
 ###### Projectile ###### 
 project switch:
   key("ctrl-c")
@@ -43,10 +50,13 @@ project file:
   key("p")
   key("f")
 
-##### For lispy languages #####
+##### Clojure #####
 open: insert("(")
 close: insert(")")
-
+keyword: insert(":")
+map: insert("{")
+deafen: insert("defn")
+fun: insert("fn")
 
 
 ###### Cider ###### 
