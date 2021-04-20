@@ -16,3 +16,10 @@ mode: all
 ^talon sleep$: speech.disable()
 ^talon wake$: speech.enable()
 
+key(cmd-0):
+  print("disable")
+  speech.disable()
+
+key(cmd-9):
+  print("enable")
+  speech.enable()
