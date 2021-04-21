@@ -83,10 +83,16 @@ cider evaluate:
   key("ctrl-k")
 cider test this:
   key("ctrl-c")
-  key(",-t")
+  key(",")
+  key("t")
 cider test all:
   key("ctrl-c")
-  key(",-n")
+  key(",")
+  key("n")
+# switch to repl
+cider (ripple | rebel):
+  key("ctrl-c")
+  key("ctrl-z")
 cider quit:
   key("ctrl-c")
   key("ctrl-q")
