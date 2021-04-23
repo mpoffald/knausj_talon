@@ -36,7 +36,15 @@ create directory:
   key("alt-x")
   insert("make-directory")
   key("enter")
-
+  
+##### Magit ##### 
+magic status:
+  key("ctrl-x")
+  key("g")
+magic commit:
+  key("ctrl-c")
+  key("ctrl-c")
+  
 ##### Evil mode #####
 normal:
   key("esc")
