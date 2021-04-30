@@ -90,14 +90,22 @@ cider test this:
   key("ctrl-c")
   key(",")
   key("t")
-cider test all:
+cider test name space:
   key("ctrl-c")
   key(",")
   key("n")
+cider test project:
+  key("ctrl-c")
+  key("ctrl-t")
+  key("p")
 # switch to repl
 cider (ripple | rebel):
   key("ctrl-c")
   key("ctrl-z")
+cider clear (ripple | rebel) buffer:
+  key("alt-x")
+  insert("cider-repl-clear-buffer")
+  key("enter")
 cider quit:
   key("ctrl-c")
   key("ctrl-q")
