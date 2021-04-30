@@ -83,9 +83,6 @@ cider add buffer:
   key("ctrl-c")
   key("ctrl-s")
   key("b")
-cider switch active:
-  key("ctrl-c")
-  key("ctrl-z")
 cider evaluate:
   key("ctrl-c")
   key("ctrl-k")
