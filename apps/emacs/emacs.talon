@@ -57,13 +57,15 @@ save file:
 
 ###### Projectile ###### 
 project switch:
-  key("ctrl-c")
-  key("p")
+  key("alt-p")
   key("p")
 project file:
-  key("ctrl-c")
-  key("p")
+  key("alt-p")
   key("f")
+project search:
+  key("alt-p")
+  key("s")
+  key("g")
 
 ##### Clojure #####
 open: insert("(")
