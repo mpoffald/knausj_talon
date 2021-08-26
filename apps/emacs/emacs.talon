@@ -57,13 +57,13 @@ save file:
 
 ###### Projectile ###### 
 project switch:
-  key("alt-p")
+  key("alt-j")
   key("p")
 project file:
-  key("alt-p")
+  key("alt-j")
   key("f")
 project search:
-  key("alt-p")
+  key("alt-j")
   key("s")
   key("g")
 
